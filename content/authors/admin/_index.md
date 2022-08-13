@@ -1,26 +1,26 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Yewon Kim
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Master's Student @ KAIST
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: KAIST Networking & Mobile Systems Laboratory
+    url: nmsl.kaist.ac.kr
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Human-centered AI
+  - Human-AI Interaction
+  - Natural Language Processing
 
 # Education to show in About widget
 education:
