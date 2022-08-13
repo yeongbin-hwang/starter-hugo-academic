@@ -8,9 +8,10 @@ superuser: true
 # Role/position/tagline
 role: Master's Student @ KAIST
 
-# Organizations/Affiliations to show in About widget
+# # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Human-centered AI, Human-AI Interaction, Natural Language Processing
+  - name: Networking & Mobile Systems Laboratory
+    url: https://nmsl.kaist.ac.kr
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include human-centered AI, human-AI interaction, and natural language.
@@ -36,26 +37,27 @@ bio: My research interests include human-centered AI, human-AI interaction, and 
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-# social:    
-#   - icon: envelope
-#     icon_pack: fas
-#     name: email
-#     link: mailto:yewon.e.kim@kaist.ac.kr
-#   - icon: twitter
-#     icon_pack: fab
-#     link: https://twitter.com/hai_yewon
-#   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-#     icon_pack: fas
-#     link: https://scholar.google.com/citations?hl=en&user=JkSutBwAAAAJ
-#   - icon: github
-#     icon_pack: fab
-#     link: https://github.com/elianakim
-#   - icon: linkedin
-#     icon_pack: fab
-#     link: https://www.linkedin.com/in/yewon-kim-133046232
-#   - icon: cv
-#     icon_pack: ai
-#     link: uploads/yewon-kim.pdf
+social:    
+  - icon: cv
+    icon_pack: ai
+    link: uploads/yewon-kim.pdf
+  - icon: envelope
+    icon_pack: fas
+    name: email
+    link: mailto:yewon.e.kim@kaist.ac.kr
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.com/citations?hl=en&user=JkSutBwAAAAJ
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/hai_yewon
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/elianakim
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: https://www.linkedin.com/in/yewon-kim-133046232
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 # email: ''
@@ -63,20 +65,3 @@ bio: My research interests include human-centered AI, human-AI interaction, and 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-<style type="text/css">
-  body{
-  font-size: 14pt;
-}
-</style>
-
-
-
-I'm a first-year Master's Student in Networking & Mobile Systems Laboratory at Korea Advanced Institute of Science and Technology(KAIST). My research interest lies in Human-Computer Interaction (HCI) and ubiquitous computing. I explore how we can advance users’ capabilities while minimizing distraction through context-aware digital support. My current research focuses on context-aware adaptation of user interface in Mixed Reality through computational interaction.
-
-[{{< icon name="envelope" pack="fas" >}} Email](https://link-url-here.org) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="envelope" pack="fas" >}} Email](https://link-url-here.org) [{{< icon name="envelope" pack="fas" >}} Email](https://link-url-here.org) [{{< icon name="envelope" pack="fas" >}} Email](https://link-url-here.org)  
-
-### Interests
-Human-centered AI, Human-AI Interaction, Natural Language Processing
-
-### News
