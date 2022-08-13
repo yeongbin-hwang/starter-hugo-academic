@@ -12,13 +12,32 @@ subtitle = ""
   columns = "1"
 +++
 
-<style type="text/css">
-  body{
+<style>
+body{
   font-size: 14pt;
 }
+
+img {
+    float: left;
+    width:250px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px
+}
+
+@media only screen and (max-width: 768px) {
+ img {
+   float: middle;
+   width: 100%; 
+ } 
+ body {
+   text-align:center;
+ }
+}
+
 </style>
 
-<img style="float: left; width: 250px; margin-top: 50px; margin-right: 50px; margin-bottom: 10px;" src="uploads/yewon.jpg">
+<img src="uploads/yewon.jpg" alt="Yewon Kim">
 
 # **Yewon Kim**
 Master's Student @ KAIST \
