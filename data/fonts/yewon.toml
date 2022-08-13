@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Yewon"
+
+# Optional Google font URL
+google_fonts = "family=Source%20Sans%20Pro:wght@400;700" #Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700"
+
+# Font families
+heading_font = "Source Sans Pro"
+body_font = "Source Sans Pro"
+nav_font = "Source Sans Pro"
+mono_font = "Source Sans Pro"
