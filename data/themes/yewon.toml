@@ -3,7 +3,7 @@ name = "Yewon"
 
 [light]
   # Primary
-  primary = "#333334"
+  primary = "#333334" #294936
 
   # Menu
   menu_primary = "#E7DDD7"
@@ -12,11 +12,9 @@ name = "Yewon"
   menu_title = "#333334"
 
   # Backgrounds
-  background = "#FCF9F2"
+  background = "#f9f7f6"
   home_section_odd = "#f9f7f6"
-  home_section_even = "#f9f7f6"
-
-  link_color = "#6D545D"
+  home_section_even = "FFFFFF"
 
 # [[colors]]
 #     theme_color = "#E7DDD7" #"#BCABAE" #"#422F21"

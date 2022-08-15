@@ -1,21 +1,50 @@
----
-# An instance of the About widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: about
++++
+widget = "blank"
+headless = true
+active = true
+weight = 10
 
-# Activate this widget? true/false
-active: false
+title = ""
+subtitle = ""
 
-# This file represents a page section.
-headless: true
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
++++
 
-# Order that this section appears on the page.
-weight: 20
+<style>
+body{
+  font-size: 14pt;
+  margin-left: 12%;
+  margin-right: 12%;
+}
 
-# title: 
+img {
+    float: left;
+    width:250px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px
+}
 
-# Choose the user profile to display
-# This should be the username (folder name) of a profile in your `content/authors/` folder.
-# See https://wowchemy.com/docs/get-started/#introduce-yourself
-author: admin
----
+@media only screen and (max-width: 768px) {
+ img {
+   float: middle;
+   width: 100%; 
+ } 
+ body {
+   text-align:center;
+ }
+}
+
+</style>
+
+<img src="uploads/yewon.jpg" alt="Yewon Kim">
+
+# **Yewon Kim**
+Master's Student @ KAIST \
+Human-centered AI, Human-AI Interaction, Natural Language Processing
+
+I am a first-year Master's Student in <u>[Networking & Mobile Systems Lab](https://nmsl.kaist.ac.kr)</u> at <u>[Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/)</u> advised by <u>[Professor Sung-Ju Lee](https://sites.google.com/site/wewantsj/)</u>. I explore how we can advance users’ capabilities while minimizing distraction through context-aware digital support. bilities while minimizing distraction through context-aware digital support. 
+
+[{{< icon name="file" pack="fas" >}} CV](uploads/yewon-kim.pdf) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="envelope" pack="fas" >}} Email](mailto:yewon.e.kim@kaist.ac.kr) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="graduation-cap" pack="fas" >}} Google Scholar](https://scholar.google.com/citations?hl=en&user=JkSutBwAAAAJ) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="twitter" pack="fab" >}} Twitter](https://twitter.com/hai_yewon) 
