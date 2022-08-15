@@ -13,10 +13,12 @@ subtitle = ""
 +++
 
 <style>
+
 body{
   font-size: 14pt;
   margin-left: 12%;
   margin-right: 12%;
+  /* margin-bottom: -100px; */
 }
 
 img {
@@ -33,7 +35,10 @@ img {
    width: 100%; 
  } 
  body {
-   text-align:center;
+  font-size: 12pt;
+  /* text-align:center; */
+  margin-left: 0%;
+  margin-right: 0%;
  }
 }
 
