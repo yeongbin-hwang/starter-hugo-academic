@@ -18,12 +18,12 @@ td, th {
 }
 
 .news {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 @media only screen and (max-width: 768px) {
   .news {
-    /* font-size: 16px; */
+    font-size: 16px;
   } 
 }
 </style>

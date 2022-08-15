@@ -35,7 +35,7 @@ img {
    width: 100%; 
  } 
  body {
-  /* font-size: 12pt; */
+  font-size: 12pt;
   /* text-align:center; */
   margin-left: 0%;
   margin-right: 0%;
