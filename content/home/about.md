@@ -10,23 +10,23 @@ subtitle = ""
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
+
 +++
 
 <style>
 
 body{
-  font-size: 14pt;
+  font-size: 15pt;
   margin-left: 12%;
   margin-right: 12%;
-  /* margin-bottom: -100px; */
 }
 
 img {
     float: left;
     width:250px;
-    margin-top: 50px;
     margin-right: 50px;
-    margin-bottom: 10px
+    margin-top: 65px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {

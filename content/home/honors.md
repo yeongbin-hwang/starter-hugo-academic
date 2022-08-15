@@ -10,11 +10,14 @@ subtitle = ""
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
+
+[design.spacing]
+  padding = ["10px", "0", "10px", "0"]
 +++
 
 <style>
   .award {font-size: 21px;}
-  .award-description {font-size: 16px;}
+  .award-description {font-size: 18px;}
 
   @media only screen and (max-width: 768px) {
     .award {font-size: 18px;}
@@ -60,5 +63,5 @@ in various activities as well as in grades. Awarded at the commencement ceremony
 
 <p style="line-height:1.3">
   <span class="award"><b>Leadership Mileage Certificate</b></span><br>
-  <span class="award-description">Honor for top 3% among 3,600+ students with top achievements in leadership activities including volunteering and campus activities.KAIST, 2020</span>
+  <span class="award-description">Honor for top 3% among 3,600+ students with top achievements in leadership activities including volunteering and campus activities. KAIST, 2020</span>
 </p>

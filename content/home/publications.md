@@ -14,8 +14,8 @@ subtitle = ""
 
 <style>
   .paper {font-size: 21px;}
-  .authors {font-size: 16px;}
-  .venue {font-size: 16px;}
+  .authors {font-size: 18px;}
+  .venue {font-size: 18px;}
 
   @media only screen and (max-width: 768px) {
     .paper {font-size: 18px;}
@@ -24,7 +24,7 @@ subtitle = ""
   }
 </style>
 
-### Preprints
+<h2 style="text-align: center; line-height:0.7"> Preprints </h3>
 <br>
 
 <p style="line-height:1.3">

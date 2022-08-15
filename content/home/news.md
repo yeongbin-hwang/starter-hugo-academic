@@ -10,6 +10,9 @@ subtitle = ""
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
+
+[design.spacing]
+  padding = ["10px", "0", "10px", "0"]
 +++
 <style>
 td, th {
@@ -18,7 +21,7 @@ td, th {
 }
 
 .news {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 768px) {
