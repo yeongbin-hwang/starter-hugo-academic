@@ -3,7 +3,7 @@ title: Mesmerizing arts that DALL-E generated
 subtitle: 
 
 # Summary for listings and search engines
-summary: 
+summary: Images I generated from https://labs.openai.com/
 
 # Link this post with a project
 projects: []
@@ -38,13 +38,6 @@ categories:
   - Daily logs
 ---
 <style>
-@import url("https://fonts.googleapis.com/css?family=Roboto:900");
-/**
-  * style variables
-*/
-/**
-  * Control & indicator mixin
-*/
 .carousel {
   height: 500px;
   width: 500px;
