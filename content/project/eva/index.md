@@ -21,7 +21,7 @@ links:
 url_code: ''
 url_pdf: ''
 url_slides: 'https://docs.google.com/presentation/d/e/2PACX-1vSFG6XvK4ByuNy8O7Rs5IR6TV8eeS12ec8l0hIehmWdP_aJzfa76CGbaCCIAcSz6g/pub?start=true&loop=false&delayms=3000'
-url_video: 'uploads/projects/eva/eva_video.mp4'
+url_video: 'https://youtu.be/S3Tn6Czs7Uc'
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
