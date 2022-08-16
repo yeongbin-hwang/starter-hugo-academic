@@ -37,19 +37,10 @@ body{
   /* margin-bottom: -100px; */
 }
 
-@media only screen and (max-width: 768px) {
- body {
-  font-size: 12pt;
-  /* text-align:center; */
-  margin-left: 0%;
-  margin-right: 0%;
- }
-}
-
 .carousel {
   height: 500px;
   width: 600px;
-  overflow: auto;
+  overflow: hidden;
   text-align: center;
   position: relative;
   padding: 0;
@@ -287,6 +278,26 @@ body{
   background-size: cover;
   background-position: center;
 }
+
+@media only screen and (max-width: 768px) {
+ body {
+  font-size: 12pt;
+  /* text-align:center; */
+  margin-left: 0%;
+  margin-right: 0%;
+ }
+
+  .carousel {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    list-style: none;
+  } 
+}
+
 </style>
 
 ### Project summary
