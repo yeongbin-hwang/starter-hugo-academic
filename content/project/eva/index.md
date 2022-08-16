@@ -1,5 +1,5 @@
 ---
-title: "EVA: Emotion-based Video-confencing Application for Enhanced Interactions in Online Platforms"
+title: "EVA: Emotion-based Video-conferencing Application for Enhanced Interactions in Online Platforms"
 summary: "Course project in KAIST EE474 Introduction to Multimedia, Spring 2020"
 tags:
   - AI
