@@ -289,8 +289,8 @@ categories:
  }
 
   .carousel {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     overflow: hidden;
     text-align: center;
     position: relative;
