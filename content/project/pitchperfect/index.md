@@ -288,8 +288,8 @@ body{
  }
 
   .carousel {
-    height: 400px;
-    width: 400px;
+    height: 280px;
+    width: 300px;
     overflow: hidden;
     text-align: center;
     position: relative;
