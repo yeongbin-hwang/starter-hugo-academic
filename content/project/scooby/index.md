@@ -1,5 +1,5 @@
 ---
-title: "Scooby: AI-interactive Speech Practive Platform for Non-native English Speakers"
+title: "Scooby: AI-interactive Speech Practice Platform for Non-native English Speakers"
 summary: "Course project in KAIST CS492 Human-AI Interaction, Fall 2020"
 tags:
   - AI
@@ -77,3 +77,5 @@ The platform has intuitive, visually appealing interface. Overall users' usabili
 - Axios - REST framework
 - React Redux
 
+<span style="color: gray">
+<i>This is done as a course project in KAIST CS492 Human-AI Interaction, Fall 2020.</i></span>

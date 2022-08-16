@@ -49,8 +49,13 @@ body{
 }
 </style>
 
->This is a course project done in KAIST EE595 Mobile Computing and Systems for Intelligent Living, Fall 2021.
-
 ### Project summary
 
-A conductor is a messenger for the composer, and musicians’ duty is to fully understand the conductor’s messages through gestures and produce unified music in a musical ensemble. However, in many cases where the conductor is absent, musicians inevitably resort to their faint memories or abstract note-taking to infer the conductor’s instructions. To revamp this limitation, we propose BeatSaver that converts conducting gestures to metronome beats. Musical details that a conductor instructed are recorded in beats and dynamics so that musicians can refer to even when they are practicing on their own. BeatSaver consists of Time Signature Classifier, Beat Detector, and Musical Dynamics Classifier, which we prove their effectiveness through real-world experiments. BeatSaver is lightweight and practical as it only utilizes Arduino Nano 33 BLE Sense attached to the conducting baton and an external server to extract the details after the practice session, making it easily applicable in the wild.
+A conductor is a messenger for the composer, and musicians’ duty is to fully understand the conductor’s messages through gestures and produce unified music in a musical ensemble. However, in many cases where the conductor is absent, musicians inevitably resort to their faint memories or abstract note-taking to infer the conductor’s instructions. To revamp this limitation, we propose BeatSaver, that converts conducting gestures to metronome beats. Musical details that a conductor instructed are recorded in beats and dynamics so that musicians can refer to even when they are practicing on their own. BeatSaver consists of Time Signature Classifier, Beat Detector, and Musical Dynamics Classifier, which we prove their effectiveness through real-world experiments. BeatSaver is lightweight and practical as it only utilizes Arduino Nano 33 BLE Sense attached to the conducting baton and an external server to extract the details after the practice session, making it easily applicable in the wild.
+
+### Libraries and frameworks
+
+- PyTorch
+
+<span style="color: gray">
+<i>This is done as a course project in KAIST EE595 Mobile Computing and Systems for Intelligent Living, Fall 2021.</i></span>

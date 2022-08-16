@@ -50,6 +50,6 @@ img {
 Master's Student @ KAIST \
 Human-centered AI, Human-AI Interaction, Natural Language Processing
 
-I am a first-year Master's Student in <u>[Networking & Mobile Systems Lab](https://nmsl.kaist.ac.kr)</u> at <u>[Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/)</u> advised by <u>[Professor Sung-Ju Lee](https://sites.google.com/site/wewantsj/)</u>. I explore how we can advance users’ capabilities while minimizing distraction through context-aware digital support. bilities while minimizing distraction through context-aware digital support. 
+I am a first-year Master's Student in <u>[Networking & Mobile Systems Lab](https://nmsl.kaist.ac.kr)</u> at <u>[Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/)</u> advised by <u>[Professor Sung-Ju Lee](https://sites.google.com/site/wewantsj/)</u>. By developing interactive systems and AI technologies, I explore how the state-of-the-art advances in AI can bring positive and beneficial outcomes to users and society.
 
 [{{< icon name="file" pack="fas" >}} CV](uploads/yewon-kim.pdf) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="envelope" pack="fas" >}} Email](mailto:yewon.e.kim@kaist.ac.kr) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="graduation-cap" pack="fas" >}} Google Scholar](https://scholar.google.com/citations?hl=en&user=JkSutBwAAAAJ) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="twitter" pack="fab" >}} Twitter](https://twitter.com/hai_yewon) 
