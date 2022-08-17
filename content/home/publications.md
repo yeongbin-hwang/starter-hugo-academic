@@ -37,7 +37,7 @@ subtitle = ""
 
 <p style="line-height:1.3">
   <span class="paper"><a href="https://arxiv.org/abs/2111.11053"><b>DAPPER: Performance Estimation of Domain Adaptation in Mobile Sensing</b></a></span><br>
-  <span class="authors">Taesik Gong, <b>Yewon Kim</b>, Adiba Orzikulova, Yunxin Liu, Sung Ju Hwang, Jinwoo Shin, and SungJu Lee</span><br>
+  <span class="authors">Taesik Gong, <b>Yewon Kim</b>, Adiba Orzikulova, Yunxin Liu, Sung Ju Hwang, Jinwoo Shin, and Sung-Ju Lee</span><br>
   <span class="venue">arXiv 2021</span><br style="content: ' '; display: block; margin: 5px;">
   <a class="badge badge-light" href="https://arxiv.org/abs/2111.11053"><i class="far fa-file-alt"></i> Paper</a>
   <!-- <a class="badge badge-light" href="projects/attention"><i class="fa fa-home"></i> Website</a> -->
