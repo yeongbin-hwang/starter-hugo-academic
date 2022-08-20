@@ -23,9 +23,9 @@ body{
 
 img {
     float: left;
-    width:250px;
+    width:230px;
     margin-right: 50px;
-    margin-top: 65px;
+    margin-top: 35px;
     margin-bottom: 10px;
 }
 
@@ -44,7 +44,7 @@ img {
 
 </style>
 
-<img src="uploads/yewon.jpg" alt="Yewon Kim">
+<img src="uploads/yewon_profile_beige.png" alt="Yewon Kim">
 
 # **Yewon Kim**
 Master's Student @ KAIST \
