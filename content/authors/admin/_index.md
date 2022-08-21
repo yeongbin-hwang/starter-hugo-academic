@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yewon Kim
+title: Yeongbin Hwang
 
 # Is this the primary user of the site?
 superuser: true
@@ -10,11 +10,11 @@ role: Master's Student @ KAIST
 
 # # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Networking & Mobile Systems Laboratory
-    url: https://nmsl.kaist.ac.kr
+  - name: System Security Laboratory
+    url: https://www.syssec.kr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include human-centered AI, human-AI interaction, and natural language.
+bio: My research interests include 5G core network, guided fuzzing test, and control plane analysis.
 
 # Interests to show in About widget
 # interests:
@@ -44,13 +44,13 @@ social:
   - icon: envelope
     icon_pack: fas
     name: email
-    link: mailto:yewon.e.kim@kaist.ac.kr
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.com/citations?hl=en&user=JkSutBwAAAAJ
+    link: mailto:hyb3565800@gmail.com
+  - icon: github # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fab
+    link: https://github.com/yeongbin-hwang
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/hai_yewon
+    link: https://twitter.com/YeongbinHwang
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/elianakim

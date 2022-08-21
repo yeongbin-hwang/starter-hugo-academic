@@ -24,36 +24,28 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Intern
-    company: System Security Laboratory
+    company: System Security Laboratory (KAIST)
     company_url: 'https://syssec.kaist.ac.kr/'
-    # company_logo: org-gc
     location: Korea
     date_start: '2020-01-01'
     date_end: '2020-12-31'
-    description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
+    description: Implments MitM(Man in the Middle) simulator in LTE.
 
   - title: Intern
-    company: Network and System Security Laboratory
+    company: Network and System Security Laboratory (KAIST)
     company_url: 'https://nss.kaist.ac.kr/'
-    # company_logo: org-x
     location: Korea
     date_start: '2019-09-01'
     date_end: '2019-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    description: Dark Web security search.
 
   - title: Intern
-    company: Computer Architecture and Memory Systems Laboratory
+    company: Computer Architecture and Memory Systems Laboratory (KAIST)
     company_url: 'http://camelab.org/pmwiki.php'
-    # company_logo: org-x
     location: Korea
     date_start: '2019-06-01'
     date_end: '2019-08-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    description: Kernel programming for improving the speed to access the memory.
 
 design:
   columns: '1'
