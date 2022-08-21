@@ -29,7 +29,7 @@ image:
   preview_only: true
 
 authors:
-  - Yewon
+  - Yeongbin
 
 tags:
   - photo

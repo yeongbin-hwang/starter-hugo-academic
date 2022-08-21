@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: Yewon
+  theme_day: Yeongbin
   # theme_night: Yewon
-  font: Yewon
+  font: Yeongbin
   font_size: XL
 
 # SEO
@@ -43,7 +43,7 @@ header:
 
 footer:
   contact:
-    notice: yewon.e.kim@kaist.ac.kr
+    notice: hyb3565800@gmail.com
   copyright:
     notice: ''
     license:
