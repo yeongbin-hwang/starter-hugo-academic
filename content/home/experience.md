@@ -8,7 +8,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 30
 
 title: Experience
 subtitle:
@@ -26,7 +26,7 @@ experience:
   - title: Intern
     company: System Security Laboratory
     company_url: 'https://syssec.kaist.ac.kr/'
-    company_logo: org-gc
+    # company_logo: org-gc
     location: Korea
     date_start: '2020-01-01'
     date_end: '2020-12-31'
@@ -40,7 +40,7 @@ experience:
   - title: Intern
     company: Network and System Security Laboratory
     company_url: 'https://nss.kaist.ac.kr/'
-    company_logo: org-x
+    # company_logo: org-x
     location: Korea
     date_start: '2019-09-01'
     date_end: '2019-12-31'
@@ -49,7 +49,7 @@ experience:
   - title: Intern
     company: Computer Architecture and Memory Systems Laboratory
     company_url: 'http://camelab.org/pmwiki.php'
-    company_logo: org-x
+    # company_logo: org-x
     location: Korea
     date_start: '2019-06-01'
     date_end: '2019-08-31'
