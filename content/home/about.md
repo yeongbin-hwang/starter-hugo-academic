@@ -44,12 +44,13 @@ img {
 
 </style>
 
-<img src="uploads/yewon_profile_beige.png" alt="Yewon Kim">
+<img src="uploads/yeongbin_profile.jpg" alt="Yeongbin Hwang">
 
-# **Yewon Kim**
+# **Yeongbin Hwang**
+
 Master's Student @ KAIST \
-Human-centered AI, Human-AI Interaction, Natural Language Processing
+5G Core Network, Guided Fuzzing Test, Control Plane Analysis
 
-I am a first-year Master's Student in <u>[Networking & Mobile Systems Lab](https://nmsl.kaist.ac.kr)</u> at <u>[Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/)</u> advised by <u>[Professor Sung-Ju Lee](https://sites.google.com/site/wewantsj/)</u>. By developing interactive systems and AI technologies, I explore how the state-of-the-art advances in AI can bring positive and beneficial outcomes to users and society.
+I am a Master's Student in <u>[System Security Lab](https://www.syssec.kr/)</u> at <u>[Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/)</u> advised by <u>[Professor Yongdae Kim](https://syssec.kaist.ac.kr/~yongdaek/)</u>. My research interest is to find, analyze, and exploit software and hardware vulnerabilities in cellular network. Especially, I'm putting my effort into offensive 5G core network security.
 
-[{{< icon name="file" pack="fas" >}} CV](uploads/yewon-kim.pdf) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="envelope" pack="fas" >}} Email](mailto:yewon.e.kim@kaist.ac.kr) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="graduation-cap" pack="fas" >}} Google Scholar](https://scholar.google.com/citations?hl=en&user=JkSutBwAAAAJ) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="twitter" pack="fab" >}} Twitter](https://twitter.com/hai_yewon) 
+[{{< icon name="file" pack="fas" >}} CV](uploads/yeongbin-hwang.pdf) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="envelope" pack="fas" >}} Email](mailto:hyb3565800@gmail.com) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="github" pack="fas" >}} Github](https://github.com/yeongbin-hwang) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="twitter" pack="fab" >}} Twitter](https://twitter.com/YeongbinHwang)
