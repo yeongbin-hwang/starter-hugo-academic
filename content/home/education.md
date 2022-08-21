@@ -4,7 +4,7 @@ headless = true
 active = true
 weight = 20
 
-title = "News"
+title = "Education"
 subtitle = ""
 
 [design]
@@ -40,15 +40,11 @@ td, th {
          </tr>
          <tr>
             <td><b>Mar.2021 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>:trophy: Won the Students with Outstanding Questions Award of KAIST</td>
+            <td>M.S., Department of Electrical Engineering, KAIST (Advisor: Yongdae Kim)</td>
          </tr>
          <tr>
             <td><b>Mar.2016 - Feb.2021</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>:four_leaf_clover: Joined Networking & Mobile Systems Lab as a Master's Student</td>
-         </tr>
-         <tr>
-            <td><b>Feb. 2022</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>:mortar_board: Graduated from KAIST with honors</td>
+            <td>B.S., Department of Electrical Engineering, KAIST</td>
          </tr>
       </table>
 
