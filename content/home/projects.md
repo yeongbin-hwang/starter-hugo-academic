@@ -31,12 +31,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: AI
-      tag: AI
-    - name: HCI
-      tag: HCI
+    - name: Cellular Network
+      tag: Cellular Network
     - name: Mobile Computing
       tag: Mobile Computing
+    - name: Web
+      tag: Web
     - name: Other
       tag: Other
 
