@@ -1,6 +1,6 @@
 ---
 title: "Comparsion between state machines"
-summary: "Analyzer, Fuzzer: build state machine in LTE"
+summary: "Analyzer, Fuzzer: build state machines in LTE"
 tags:
   - Cellular Network
 date: '2021-12-09T00:00:00Z'
@@ -17,9 +17,9 @@ links:
   #   icon_pack: fab
   #   name: Follow
   #   url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
-url_slides: ''
+url_code: 'https://github.com/yeongbin-hwang/Analyzer'
+url_pdf: 'uploads/projects/statemachine/URP_report.pdf'
+url_slides: 'uploads/projects/statemachine/URP_presentation.pdf'
 url_video: ''
 
 # Slides (optional).
@@ -50,12 +50,15 @@ body{
 
 ### Project summary
 
-We tried to find vulnerabilities by conducting fuzzing tests on LTE networks. The UE simulator for testing was implemented based on srsRAN, and the analyzer for analyzing the results was implemented in the form of Ubuntu CLI using python.
+<u>[srsRAN](https://github.com/srsran/srsRAN)</u> implements each cellular network identity with software so that LTE network can be accessed using SDR equipment. I tried to find vulnerabilities by conducting fuzzing tests on LTE networks. Based on this project, I implemented the following functions to conduct a fuzzing test. 
+- First, implements a code that converts to it so that it can be recognized by srsRAN when given the form of the message to be tested.
+- Second, a function capable of logging the result value while repeatedly executing the test by changing the input value was implemented.
+- Third, implement a CLI based analyzer that analyzes stored result values.
 
 ### Libraries and frameworks
 
 - UE simulator: C++, C
-- Message Analyzer: Python
+- Message Generator, Analyzer: Python
 
 <span style="color: gray">
-<i>This is done, Fall 2022.</i></span>
+<i>This is done, Spring 2021.</i></span>
