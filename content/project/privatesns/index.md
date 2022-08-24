@@ -1,9 +1,9 @@
 ---
-title: "5G core network testing: inducing the collision"
-summary: "Guided fuzzing test that can detect the procedure collision"
+title: "Private SNS"
+summary: "Clone coding that implements SNS service like Instagram"
 tags:
-  - Cellular Network
-date: '2022-08-24T00:00:00Z'
+  - Web
+date: '2022-07-09T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -17,7 +17,7 @@ links:
   #   icon_pack: fab
   #   name: Follow
   #   url: https://twitter.com/georgecushen
-url_code: ''
+url_code: 'https://github.com/yeongbin-hwang/instaclone-backend'
 url_pdf: ''
 url_slides: ''
 url_video: ''
@@ -49,14 +49,17 @@ body{
 </style>
 
 ### Project summary
+In the case of the frontend server to create my own sns, the code was imported and used from <u>[github](https://github.com/manikandanraji/instaclone-frontend)</u>, and the backend server linked thereto was implemented and completed by myself.
 
-From 5G, each network entity runs a container-based program. In the case of 5G Core Network, each network entity is implemented and managed using kubernetes. To test this, UE and gNB emulator were implemented using kubernetes, and the program for packet forwarding was made in python.
+There are no functions such as post modification, friend tag, and notification in the existing frontend code, so the frontend part of that part is added, and most of the functions used by the instagram are supported.
 
 ### Libraries and frameworks
 
-- UE, gNB emulator: C++, C
-- Entity management: Kubernetes
-- Packet forwarding: Python
+- Database: mysql
+- Backend server: node.js, express
+- Image storage server: cloudinary
+- Deploy: AWS lightsail
+- Load & unit testing: jest
 
 <span style="color: gray">
 <i>This is done, Fall 2022.</i></span>

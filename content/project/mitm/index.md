@@ -1,6 +1,6 @@
 ---
-title: "MitM simulater: Modifying packets between users"
-summary: "Simulator for verifying our attack in real environment"
+title: "MitM simulater: Modifying packets between user and network"
+summary: "Simulator for verifying our attack scenarios in real environment"
 tags:
   - Cellular Network
 date: '2020-12-09T00:00:00Z'
@@ -18,7 +18,7 @@ links:
   #   name: Follow
   #   url: https://twitter.com/georgecushen
 url_code: ''
-url_pdf: ''
+url_pdf: 'https://patentimages.storage.googleapis.com/04/a7/f6/7c254830d6c656/US20220124504A1.pdf'
 url_slides: ''
 url_video: ''
 
@@ -50,12 +50,12 @@ body{
 
 ### Project summary
 
-MitM environment was built in LTE network to verify vulnerabilities found through formal verification. In the case of Fake gNB and Fake UE, it was executed through srsRAN, and a program to relay messages between the two entities was made using python.
+MitM(Man in the Middle) environment was built in LTE network to verify vulnerabilities found through formal verification. This MitM simulator executes the attack scenario we want and determines whether the network or user is functioning normally for it. This allows us to validate attacks on vulnerabilities found using formal analysis. As shown in the figure above, the simulator is largely composed of fake eNB, fake UE, and controller. In the case of Fake eNB and Fake UE, it was implemented based on <u>[srsRAN](https://github.com/srsran/srsRAN)</u>, and we implemented a controller that parses and transfers a scenario input in the form of xml and uses it to relay or tamper messages.
 
 ### Libraries and frameworks
 
 - Fake UE and Fake eNB: C++, C
-- MitM simulator: Python
+- Controller: Python
 
 <span style="color: gray">
 <i>This is done, Fall 2020.</i></span>
