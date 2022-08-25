@@ -50,7 +50,7 @@ body{
 
 ### Project summary
 
-MitM(Man in the Middle) environment was built in LTE network to verify vulnerabilities found through formal verification. This MitM simulator executes the attack scenario we want and determines whether the network or user is functioning normally for it. This allows us to validate attacks on vulnerabilities found using formal analysis. As shown in the figure above, the simulator is largely composed of fake eNB, fake UE, and controller. In the case of Fake eNB and Fake UE, it was implemented based on <u>[srsRAN](https://github.com/srsran/srsRAN)</u>, and we implemented a controller that parses and transfers a scenario input in the form of xml and uses it to relay or tamper messages.
+MitM(Man in the Middle) environment was built in LTE network to verify vulnerabilities found through formal verification. This MitM simulator executes the attack scenario we want and determines whether the network or user is functioning normally for it. This allows us to validate attacks on vulnerabilities found using formal analysis. As shown in the figure above, the simulator is largely composed of <b>fake eNB</b>, <b>fake UE</b>, and <b>controller</b>. In the case of Fake eNB and Fake UE, it was implemented based on <u>[srsRAN](https://github.com/srsran/srsRAN)</u>, and we implemented a controller that parses and transfers a scenario input in the form of xml and uses it to relay or tamper messages.
 
 ### Libraries and frameworks
 
