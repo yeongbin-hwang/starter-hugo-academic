@@ -19,12 +19,12 @@ main:
   - name: Projects
     url: '#projects'
     weight: 50
-  - name: Personal
-    url: 'post'
-    weight: 60
+  # - name: Personal
+  #   url: 'post'
+  #   weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: CV
     url: uploads/yeongbin-hwang.pdf
-    weight: 70
+    weight: 60

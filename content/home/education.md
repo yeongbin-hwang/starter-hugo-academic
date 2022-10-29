@@ -39,7 +39,7 @@ td, th {
             <th></th>
          </tr>
          <tr>
-            <td><b>Mar.2021 - {{< icon name="timer" pack="fa-solid" >}}</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
+            <td><b>Mar.2021 - </b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
             <td>M.S., Department of Electrical Engineering, KAIST (Advisor: Yongdae Kim)</td>
          </tr>
          <tr>
