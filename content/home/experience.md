@@ -10,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Experience
+title: Research Experience
 subtitle:
 
 # Date format for experience
@@ -29,7 +29,7 @@ experience:
     location: Korea
     date_start: '2020-01-01'
     date_end: '2020-12-31'
-    description: Implments MitM(Man in the Middle) simulator in LTE.
+    description: Implments MitM(Man in the Middle) attacker in LTE.
 
   - title: Intern
     company: Network and System Security Laboratory (KAIST)
@@ -37,7 +37,7 @@ experience:
     location: Korea
     date_start: '2019-09-01'
     date_end: '2019-12-31'
-    description: Dark Web security search.
+    description: Analyzed Dark Web.
 
   - title: Intern
     company: Computer Architecture and Memory Systems Laboratory (KAIST)

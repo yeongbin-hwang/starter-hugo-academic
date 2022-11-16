@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Yeongbin Hwang # Website name
-baseURL: 'yeongbin-hwang.com' # Website URL
+baseURL: 'yeongbin.dev' # Website URL
 
 ############################
 ## LANGUAGE
