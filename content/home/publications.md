@@ -2,7 +2,7 @@
 widget = "blank"
 headless = true
 active = true
-weight = 60
+weight = 50
 
 title = "Publications"
 subtitle = ""
@@ -10,6 +10,8 @@ subtitle = ""
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
+[design.spacing]
+  padding = ["40px", "0px", "10px", "0"]
 +++
 
 <style>
