@@ -1,6 +1,6 @@
 ---
-title: "Comparsion between state machines"
-summary: "Analyzer, Fuzzer: build state machines in LTE"
+title: "Comparative analysis between state machines"
+summary: "Build fine-grained state machines and analyze the difference between state machines"
 tags:
   - Cellular Network
 date: '2021-12-09T00:00:00Z'
@@ -50,15 +50,21 @@ body{
 
 ### Project summary
 
-<u>[srsRAN](https://github.com/srsran/srsRAN)</u> implements each cellular network identity with software so that LTE network can be accessed using SDR equipment. I tried to find vulnerabilities by conducting fuzzing tests on LTE networks. Based on this project, I implemented the following functions to conduct a fuzzing test. 
-- First, implements a code that converts to it so that it can be recognized by srsRAN when given the form of the message to be tested.
-- Second, a function capable of logging the result value while repeatedly executing the test by changing the input value was implemented.
-- Third, implement a CLI based analyzer that analyzes stored result values.
+We assume that if handling of invalid messages between each networks is different, this may lead to implementation vulnerabilities.
+Therefore, we implements the framework that automatically builds the state machine of network using the UE side log.
+The framework is implemented on top of <u>[srsRAN](https://github.com/srsran/srsRAN)</u> project.
+The srsRAN implements each cellular network entity with software so that LTE network can be accessed using SDR equipment.
+Based on this open-source project, we implemented the following modules and programs.
+- First, module that converts config file to internal structure so that it can be recognized by srsRAN when given the form of the message to be tested.
+- Second, module capable of logging the result value while repeatedly executing the test by changing the input file.
+- Third, CLI based analyzer that analyzes stored result values.
+- Fourth, program that builds the state machine based on stored log.
 
 ### Libraries and frameworks
 
 - UE simulator: C++, C
-- Message Generator, Analyzer: Python
+- Analyzer: Python (with py_cui library)
+- State machine generator: Python (with transitions library)
 
 <span style="color: gray">
 <i>This is done, Spring 2021.</i></span>
