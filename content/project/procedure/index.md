@@ -192,10 +192,10 @@ body{
 ### Project summary
 
 We implemented a framework based on Open5GCore, which is running the entities of 5G core network on the container that managed by kubernetes, to find the vulnerabilities of the 5G core network. 
-The framework consists of three main components: a <b>Fuzzer</b> that continues testing on UE1 pod, a <b>Controller</b> that captures packets on the host and relays them to the target, and an <b>Analyzer</b> that analyzes the results of the test.
+The framework consists of three main components: <b>Fuzzer</b> that continues testing on UE1 pod, <b>Controller</b> that captures packets on the host and relays them to the target, and <b>Analyzer</b> that analyzes the results of the test.
 
 #### Fuzzer
-The fuzzer running on the UE1 pod reads the input file and generates an attack scenario based on the file. Then, UE move to the target state and execute the test cases by communicating with other pod named gNB. After the test, automatically change the scenario and repeat the test process.
+The fuzzer running on the UE1 pod reads the input file and generates an attack scenario based on the file. Then, UE move to the target state and execute the test cases by communicating with other pod named gNB. After the test, it automatically change the scenario and repeat the test process.
 The UE1 pod and gNB pod are easily transmit the packet using internal interface.
 
 #### Controller
