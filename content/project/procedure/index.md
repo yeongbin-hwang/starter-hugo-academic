@@ -3,10 +3,10 @@ title: "5G core network testing: let's induce the collision"
 summary: "Framework that can execute not only guided fuzzing, but also various attack scenarios"
 tags:
   - Cellular Network
-date: '2022-08-09T00:00:00Z'
+date: "2022-08-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: ""
 
 image:
   caption: ""
@@ -17,10 +17,10 @@ links:
   #   icon_pack: fab
   #   name: Follow
   #   url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: 'uploads/projects/procedure/mobisec22.pdf'
-url_slides: ''
-url_video: ''
+url_code: ""
+url_pdf: "uploads/projects/procedure/mobisec22.pdf"
+url_slides: "uploads/projects/procedure/Presentation.pdf"
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -29,6 +29,7 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
 <style>
 body{
   font-size: 14pt;
@@ -191,18 +192,21 @@ body{
 
 ### Project summary
 
-We implemented a framework based on Open5GCore, which is running the entities of 5G core network on the container that managed by kubernetes, to find the vulnerabilities of the 5G core network. 
+We implemented a framework based on Open5GCore, which is running the entities of 5G core network on the container that managed by kubernetes, to find the vulnerabilities of the 5G core network.
 The framework consists of three main components: <b>Fuzzer</b> that continues testing on UE1 pod, <b>Controller</b> that captures packets on the host and relays them to the target, and <b>Analyzer</b> that analyzes the results of the test.
 
 #### Fuzzer
+
 The fuzzer running on the UE1 pod reads the input file and generates an attack scenario based on the file. Then, UE move to the target state and execute the test cases by communicating with other pod named gNB. After the test, it automatically change the scenario and repeat the test process.
 The UE1 pod and gNB pod are easily transmit the packet using internal interface.
 
 #### Controller
+
 The controller is responsible for capturing messages sent to the core network and relaying them to the target network while monitoring br-ngc that is virtual network bridge. In this case, the packet for each test is stored in the form of a pcap while communicating with the UE.
 
 #### Analyzer
-The Analyzer analyzes the logs stored in the form of json and displays them in the form of the CUI to determine whether the attack was successful or unsuccessful.
+
+The analyzer analyzes the logs stored in the form of json and displays them in the form of the CUI to determine whether the attack was successful or unsuccessful.
 
 <div class="carousel-container">
   <div class="carousel my-carousel carousel--translate">
@@ -223,6 +227,7 @@ The Analyzer analyzes the logs stored in the form of json and displays them in t
 </div>
 
 ### Libraries and frameworks
+
 - UE, gNB emulator: C++, C, Kubernetes
 - Packet capture & relay: Python (with scapy library)
 - Analyzer: Python (with py_cui library)

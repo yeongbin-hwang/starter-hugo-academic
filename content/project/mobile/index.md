@@ -3,10 +3,10 @@ title: "Emergency alarm: Bodyguard Implementation in BLE"
 summary: "Course project in KAIST EE595 Mobile Computing and Systems for Intelligent Living, Fall 2021"
 tags:
   - Mobile Computing
-date: '2021-12-09T00:00:00Z'
+date: "2021-12-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: ""
 
 image:
   caption: ""
@@ -17,10 +17,10 @@ links:
   #   icon_pack: fab
   #   name: Follow
   #   url: https://twitter.com/georgecushen
-url_code: 'https://github.com/yeongbin-hwang/mobile_project'
-url_pdf: 'uploads/projects/mobile/Documentation.pdf'
-url_slides: 'uploads/projects/mobile/Presentation.pdf'
-url_video: ''
+url_code: "https://github.com/yeongbin-hwang/mobile_project"
+url_pdf: "uploads/projects/mobile/Documentation.pdf"
+url_slides: "uploads/projects/mobile/Presentation.pdf"
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -59,4 +59,4 @@ We tried to detect dangerous situations through smartwatch. We created a service
 - Communication with BLE: Python
 
 <span style="color: gray">
-<i>This is done, Fall 2021.</i></span>
+<i>This is done as a course project in KAIST EE595 Mobile Computing and Systems for Intelligent Living, Fall 2021.</i></span>
