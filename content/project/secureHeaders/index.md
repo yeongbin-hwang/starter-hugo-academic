@@ -1,6 +1,6 @@
 ---
 title: "Large Scale Evaluation of Secure Headers in Wild"
-summary: "Investigation on HTTP response headers to find insecure websites"
+summary: "Course project in KAIST IS542 Web Service Security and Privacy, Fall 2022"
 tags:
   - Web
 date: "2022-12-09T00:00:00Z"
