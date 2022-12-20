@@ -3,10 +3,10 @@ title: "Private SNS"
 summary: "Clone coding that implements SNS service like Instagram"
 tags:
   - Web
-date: '2022-07-09T00:00:00Z'
+date: "2022-07-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: ""
 
 image:
   caption: ""
@@ -17,10 +17,10 @@ links:
   #   icon_pack: fab
   #   name: Follow
   #   url: https://twitter.com/georgecushen
-url_code: 'https://github.com/yeongbin-hwang/instaclone-backend'
-url_pdf: ''
-url_slides: ''
-url_video: ''
+url_code: "https://github.com/yeongbin-hwang/instaclone-backend"
+url_pdf: ""
+url_slides: ""
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -49,16 +49,19 @@ body{
 </style>
 
 ### Project summary
+
 In the case of the frontend server to create my own sns, the code was imported and used from <u>[github](https://github.com/manikandanraji/instaclone-frontend)</u>, and the backend server linked thereto was implemented and completed by myself.
 
 There are no functions such as post modification, friend tag, and notification in the existing frontend code, so the frontend part of that part is added, and most of the functions used by the instagram are supported.
+
+I implemented backend, frontend, and database as containers, respectively, and applied docker-compose, kubernetes to set up a network for communication.
 
 ### Libraries and frameworks
 
 - Database: mysql
 - Backend server: node.js, express
 - Image storage server: cloudinary
-- Deploy: AWS lightsail
+- Deploy: Kubernetes, Docker, AWS lightsail
 - Load & unit testing: jest
 
 <span style="color: gray">
