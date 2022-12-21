@@ -61,7 +61,7 @@ I implemented backend, frontend, and database as containers, respectively, and a
 - Database: mysql
 - Backend server: node.js, express
 - Image storage server: cloudinary
-- Deploy: Kubernetes, Docker, AWS lightsail
+- Deploy: Kubernetes, Docker, github actions, AWS lightsail
 - Load & unit testing: jest
 
 <span style="color: gray">
