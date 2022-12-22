@@ -1,12 +1,12 @@
 ---
-title: "Comparative analysis between state machines"
+title: "Comparative Analysis between State Machines"
 summary: "Build fine-grained state machines and analyze the difference between state machines"
 tags:
   - Cellular Network
-date: '2021-12-09T00:00:00Z'
+date: "2021-12-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: ""
 
 image:
   caption: ""
@@ -17,10 +17,10 @@ links:
   #   icon_pack: fab
   #   name: Follow
   #   url: https://twitter.com/georgecushen
-url_code: 'https://github.com/yeongbin-hwang/Analyzer'
-url_pdf: 'uploads/projects/statemachine/URP_report.pdf'
-url_slides: 'uploads/projects/statemachine/URP_presentation.pdf'
-url_video: ''
+url_code: "https://github.com/yeongbin-hwang/Analyzer"
+url_pdf: "uploads/projects/statemachine/URP_report.pdf"
+url_slides: "uploads/projects/statemachine/URP_presentation.pdf"
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -55,6 +55,7 @@ Therefore, we implements the framework that automatically builds the state machi
 The framework is implemented on top of <u>[srsRAN](https://github.com/srsran/srsRAN)</u> project.
 The srsRAN implements each cellular network entity with software so that LTE network can be accessed using SDR equipment.
 Based on this open-source project, we implemented the following modules and programs.
+
 - First, module that converts config file to internal structure so that it can be recognized by srsRAN when given the form of the message to be tested.
 - Second, module capable of logging the result value while repeatedly executing the test by changing the input file.
 - Third, CLI based analyzer that analyzes stored result values.

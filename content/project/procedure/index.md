@@ -1,5 +1,5 @@
 ---
-title: "5G core network testing: let's induce the collision"
+title: "5G Core Network Testing: Let's Induce the Collision"
 summary: "Framework that can execute not only guided fuzzing, but also various attack scenarios"
 tags:
   - Cellular Network
@@ -192,7 +192,7 @@ body{
 
 ### Project summary
 
-We implemented a framework based on Open5GCore, which is running the entities of 5G core network on the container that managed by kubernetes, to find the vulnerabilities of the 5G core network.
+We implemented a framework based on Open5GCore, which runs the entities of 5G core network on the container managed by Kubernetes, to find the vulnerabilities of the 5G core network.
 The framework consists of three main components: <b>Fuzzer</b> that continues testing on UE1 pod, <b>Controller</b> that captures packets on the host and relays them to the target, and <b>Analyzer</b> that analyzes the results of the test.
 
 #### Fuzzer

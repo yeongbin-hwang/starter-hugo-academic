@@ -25,28 +25,28 @@ date_format: Jan 2006
 experience:
   - title: Intern
     company: System Security Laboratory (KAIST)
-    company_url: 'https://syssec.kaist.ac.kr/'
+    company_url: "https://syssec.kaist.ac.kr/"
     location: Korea
-    date_start: '2020-01-01'
-    date_end: '2020-12-31'
-    description: Implments MitM(Man in the Middle) attacker in LTE.
+    date_start: "2020-01-01"
+    date_end: "2020-12-31"
+    description: Implements MitM(Man in the Middle) attacker in LTE.
 
   - title: Intern
     company: Network and System Security Laboratory (KAIST)
-    company_url: 'https://nss.kaist.ac.kr/'
+    company_url: "https://nss.kaist.ac.kr/"
     location: Korea
-    date_start: '2019-09-01'
-    date_end: '2019-12-31'
+    date_start: "2019-09-01"
+    date_end: "2019-12-31"
     description: Analyzed Dark Web.
 
   - title: Intern
     company: Computer Architecture and Memory Systems Laboratory (KAIST)
-    company_url: 'http://camelab.org/pmwiki.php'
+    company_url: "http://camelab.org/pmwiki.php"
     location: Korea
-    date_start: '2019-06-01'
-    date_end: '2019-08-31'
+    date_start: "2019-06-01"
+    date_end: "2019-08-31"
     description: Kernel programming for improving the speed to access the memory.
 
 design:
-  columns: '1'
+  columns: "1"
 ---

@@ -14,6 +14,7 @@ subtitle = ""
 [design.spacing]
   padding = ["10px", "0", "10px", "0"]
 +++
+
 <style>
 td, th {
   border: none!important;
@@ -48,7 +49,7 @@ td, th {
          </tr>
          <tr>
             <td><b>Server Management</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>Container (Docker & Kubernetes), Amazon AWS EC2</td>
+            <td>Container (Docker & Kubernetes), Github action, Amazon AWS EC2</td>
          </tr>
          <tr>
             <td><b>Hardware Development</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
@@ -56,10 +57,10 @@ td, th {
          </tr>
       </table>
 
-<!-- |                      |               | 
-| :------------------- | :------------ | 
-| **Jul. 2022** &nbsp; &nbsp; &nbsp; &nbsp; | :trophy: Won the Students with Outstanding Questions Award of KAIST | 
-| **Feb. 2022** &nbsp; &nbsp; &nbsp; &nbsp; | :four_leaf_clover: Joined Networking & Mobile Systems Lab as a Master's Student | 
+<!-- |                      |               |
+| :------------------- | :------------ |
+| **Jul. 2022** &nbsp; &nbsp; &nbsp; &nbsp; | :trophy: Won the Students with Outstanding Questions Award of KAIST |
+| **Feb. 2022** &nbsp; &nbsp; &nbsp; &nbsp; | :four_leaf_clover: Joined Networking & Mobile Systems Lab as a Master's Student |
 | **Feb. 2022** &nbsp; &nbsp; &nbsp; &nbsp; | :mortar_board: Graduated from KAIST with honors |  -->
 
 <!-- </div> -->

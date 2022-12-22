@@ -1,12 +1,12 @@
 ---
-title: "MitM simulater: Modifying packets between user and network"
+title: "MitM Simulater: Modifying Packets between User and Network"
 summary: "Simulator for verifying our attack scenarios in real environment"
 tags:
   - Cellular Network
-date: '2020-12-09T00:00:00Z'
+date: "2020-12-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: ""
 
 image:
   caption: ""
@@ -17,10 +17,10 @@ links:
   #   icon_pack: fab
   #   name: Follow
   #   url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: 'https://patentimages.storage.googleapis.com/04/a7/f6/7c254830d6c656/US20220124504A1.pdf'
-url_slides: ''
-url_video: ''
+url_code: ""
+url_pdf: "https://patentimages.storage.googleapis.com/04/a7/f6/7c254830d6c656/US20220124504A1.pdf"
+url_slides: ""
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.

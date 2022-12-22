@@ -18,7 +18,7 @@ links:
   #   name: Follow
   #   url: https://twitter.com/georgecushen
 url_code: "https://github.com/yeongbin-hwang/secure-headers"
-url_pdf: ""
+url_pdf: "uploads/projects/secureHeaders/Paper.pdf"
 url_slides: "uploads/projects/secureHeaders/Presentation.pdf"
 url_video: ""
 
